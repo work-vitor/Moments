@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './comopents/header/header.component';
-import { FooterComponent } from './comopents/footer/footer.component';
-import { AboutComponent } from './comopents/pages/about/about.component';
-import { HomeComponent } from './comopents/pages/home/home.component';
-import { NewMomentComponent } from './comopents/pages/new-moment/new-moment.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { AboutComponent } from './components/pages/about/about.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { NewMomentComponent } from './components/pages/new-moment/new-moment.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { NewMomentComponent } from './comopents/pages/new-moment/new-moment.comp
     FooterComponent,
     AboutComponent,
     HomeComponent,
-    NewMomentComponent
+    NewMomentComponent,
   ],
   imports: [
     BrowserModule,
